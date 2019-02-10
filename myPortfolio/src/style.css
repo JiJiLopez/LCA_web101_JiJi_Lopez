@@ -1,6 +1,6 @@
 body{
     font-size:16px;
-    background-color: lavender;
+    background-image: url("./background1.jpeg");
     margin-top: 0%;
     margin-left: 0;
     margin-right: 0;
@@ -17,13 +17,15 @@ header{
 }
 
 .has-border{
-    color: lavender;
+    color: lavenderblush;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
 main{
     text-align: center;
+    color: purple;
+    font-weight: bold;
 }
 
 div{
@@ -34,14 +36,13 @@ div{
 article{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background-color: whitesmoke;
-    color: #000;
+    color: purple;
+    font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 20px;
     margin-left: 25%;
     margin-right: 25%;
-    border: 1px lavender solid;
 }
 
 p:hover::first-letter{
