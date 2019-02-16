@@ -10,6 +10,7 @@ body {
     width: 30%;
     height: 100%;
     margin: 7% 10%;
+    border-radius: 25%;
   }
   
   header {
@@ -38,6 +39,14 @@ body {
     text-align: center;
     float: left;
   }
+
+  nav a {
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: black;
+  }
   
   nav {
     display: flex;
@@ -46,14 +55,14 @@ body {
   }
   
   #profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
   }
   
   h1 {
-    color:white;
     grid-column: 2/3;
     margin: 3% auto;
     border-bottom: 2px solid #1940A9;;
@@ -82,7 +91,78 @@ body {
     font-style: italic;
   }
   div {
-    border: 1px black solid;
     width: 60%;
     margin: 5% auto;
+  }
+
+  article {
+    text-align: center;
+  }
+
+  @media (max-width: 992px) {
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+    nav a {
+      width: 200px;
+      text-decoration: none;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    body {
+      background-image: none;
+      background-color: white;
+    }
+
+    h2 {
+      text-align: center;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+  }
+
+  @media (max-width: 576px) {
+    body {
+    background-image: none;
+    background-color: pink;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      width: 200%;
+      margin: 20%;
+      align-content: center;
+    }
+
+    nav a {
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    
+    .logo{
+      display: none !important;
+    }
+
+    #profile-pic {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin: 15% -20%;
+      grid-column: 2/3;
+    }
+    
   }
