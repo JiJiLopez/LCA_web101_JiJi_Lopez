@@ -1,6 +1,8 @@
 body{
     font-size:16px;
-    background-image: url("./background1.jpeg");
+    background-image: url("./blogbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: 0%;
     margin-left: 0;
     margin-right: 0;
@@ -43,6 +45,10 @@ article{
     line-height: 20px;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 15px;
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 p:hover::first-letter{
