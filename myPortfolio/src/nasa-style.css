@@ -1,0 +1,18 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    height: 50%;
+    background-image: url(./galaxy.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 324px;
+    width: 100%;
+    background-color: lightgray;
+}
