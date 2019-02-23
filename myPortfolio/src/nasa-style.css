@@ -1,18 +1,77 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
 
-main {
-    height: 50%;
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.main {
+    padding: 0;
+    margin-top: 0;
+    height: 450px;
+    width: 850px;
     background-image: url(./galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    padding: 15%;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 .container {
     display: flex;
     height: 324px;
-    width: 100%;
+    width: 850px;
     background-color: lightgray;
+    justify-content: center;
+}
+
+.div1 {
+    width: 270px;
+    padding: 20px;
+}
+
+.div2 {
+    width: 270px;
+    padding: 20px;
+
+}
+
+.div3 {
+    width: 270px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+p {
+    padding: 0;
+    margin: 5px;
+}
+
+h5 {
+    margin: 5px;
+}
+
+#messagefield {
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+#submitbutton {
+    color: white;
+    background-color: slategrey;
+    border: slategray;
+    padding: 5px;
 }
