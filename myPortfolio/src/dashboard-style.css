@@ -24,13 +24,14 @@ nav {
 }
   
 .box1 {
-  flex-flow: row wrap;
-  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid lightgray;
   width: 175px;
-  height: 265px;
+  height: 275px;
   border-radius: 5px;
   background-color: lightgray;
-  padding: 3px;
+  padding: 0px;
   justify-content: center;
   align-items: center;
 }
@@ -38,7 +39,7 @@ nav {
 .digitButtons {
   width: 40px;
   height: 40px;
-  margin: 2px 0px;
+  margin: 0;
   font-size: 16px;
   font-weight: bold;
   justify-content: center;
@@ -57,10 +58,8 @@ nav {
 }
 
 #displayBox {
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  margin-bottom: 15px 0px;
+  margin: 5px;
+  height: 30px;
  }
 
 .button0 {
