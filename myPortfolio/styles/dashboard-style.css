@@ -13,7 +13,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./dashboardbackground.jpg);
+  background-image: url(/myPortfolio/images/dashboardbackground.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
