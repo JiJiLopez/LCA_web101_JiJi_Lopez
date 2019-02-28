@@ -33,6 +33,7 @@ main {
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 50%;
+    margin-right: 30px;
 }
 
 .firstones:nth-child(1) {
@@ -79,4 +80,5 @@ main {
 footer {
     background-color: black;
     height: 100px;
+    color: white;
 }
