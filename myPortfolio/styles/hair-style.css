@@ -16,13 +16,12 @@ a {
 }
 
 main {
-    background-image: url(./the-beacon.jpg);
+    background-image: url(../images/the-beacon.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 475px;
+    height: 400px;
     padding-top: 7%;
-    margin-bottom: 10px;
-    border: 1px solid black;
+    padding-bottom: 0;
 }
 
 .firstones {
@@ -33,7 +32,7 @@ main {
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 50%;
-    margin-right: 30px;
+    margin-right: 10%;
 }
 
 .firstones:nth-child(1) {
@@ -54,8 +53,6 @@ main {
     justify-content: space-around;
     padding: 5%;
     margin-top: 5px;
-    border: 1px solid black;
-
 }
 
 #father {
@@ -78,7 +75,128 @@ main {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: black;
     height: 100px;
     color: white;
+}
+
+#footerparagraph {
+    display: flex;
+    vertical-align: center;
+    margin-left: 5%;
+}
+
+.footerimages {
+    display: flex;
+    margin-left: 50%;
+}
+
+#twitter, #facebook, #google, #pinterest {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 992px) {
+ 
+    main {
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+    .firstones {
+        padding: 5px;
+        margin-left: 45%;
+        margin-right: 5px;
+    }
+
+    .readmore {
+        margin-left: 45%;
+    }
+
+    .container {
+        height: 300px;
+    }
+
+    #father, #actor, #nerd {
+        height: 225px;
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    main {
+        height: 225px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .firstones {
+        padding: 3px;
+        margin-left: 40%;
+        margin-right: 5px;
+        margin-top: 0;
+    }
+
+    .readmore {
+        margin-left: 40%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .container {
+        height: 300px;
+    }
+
+    #father, #actor, #nerd {
+        height: 200px;
+        width: 225px;
+        margin: 10px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    
+    main {
+        height: 175px;
+    }
+
+    .firstones {
+        padding: 0;
+        margin-left: 1%;
+    }
+
+    .readmore {
+        margin-left: 1%;
+        height: 25px;
+        padding: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 60%;
+    }
+
+    #father, #actor, #nerd {
+        height: 225px;
+        width: 250px;
+        margin-left: 25%;
+    }
+    
+    footer {
+        margin-top: 60%;
+        flex-direction: column;
+    }
+
+    .footerimages {
+        margin: 0;
+        padding: 0;
 }
