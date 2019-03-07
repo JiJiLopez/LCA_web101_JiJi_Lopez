@@ -1,0 +1,24 @@
+body {
+    background-image: url(../images/redphone.jpg);
+    background-size: 100%;
+    background-repeat: norepeat;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.box1 {
+    border: 1px solid black;
+    justify-content: flex-end;
+}
+
+.box2 {
+    border: 1px solid black;
+}
