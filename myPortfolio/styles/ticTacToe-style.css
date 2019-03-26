@@ -1,0 +1,85 @@
+body {
+    background: turquoise;
+}
+.bigbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border: 1px solid pink;
+}
+
+#one {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: -10px;
+    border-right: 10px solid gray;
+}
+
+#two {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#three {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    
+}
+
+#four {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#five {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#six {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#seven {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#eight {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#nine {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
