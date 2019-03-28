@@ -111,10 +111,12 @@
         <div class="box2">
             <div id="todo-app">
                 <label class="todo-label" for="new-todo">What do you want to do today?</label>
-                <input type="text" id="new-todo" class="todo-input"
-                    placeholder="buy milk">
-                <input type="button" id="add" value="add">
-                <ol id="todo-list">
+                <form id="newItemForm">
+                    <input type="text" id="new-todo" class="todo-input"
+                        placeholder="buy milk">
+                    <input type="button" id="add" value="add">
+                </form>
+                <ol>
                     <li class="todolistitem">pay bills</li>
                     <li class="todolistitem">homework</li>
                     <li class="todolistitem">go to gym</li>
@@ -129,5 +131,8 @@
     <footer>
         <p>best dashboard ever</p>
     </footer>
+<!-- <script src="//code.jquery.com/jquery-3.3.1.js"></script> -->
+<script src="../scripts/jquery-3.3.1.min.js"></script>
+<script src="../scripts/dashboard.js"></script>
 </body>
 </html>
