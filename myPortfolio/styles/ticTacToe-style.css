@@ -1,85 +1,46 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 body {
     background: turquoise;
 }
-.bigbox{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    border: 1px solid pink;
+
+#game-board{
+    width: 300px;
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: calc(50vw-150px);
 }
 
-#one {
-    display:flex;
-    height: 100px;
+.piece-block {
     width: 100px;
+    height:100px;
     border: 1px solid black;
-    margin-left: -10px;
-    border-right: 10px solid gray;
+    font-size: 24px;
+    text-align: center;
 }
 
-#two {
-    display:flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 10px;
+#commands {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    margin-left: calc(50vw-150px);
+    text-align: center;
 }
 
-#three {
-    display:flex;
-    height: 100px;
+button {
     width: 100px;
-    border: 1px solid black;
-    
+    height: 50px;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
-#four {
-    display:flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 10px;
-}
 
-#five {
-    display:flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 10px;
-}
-
-#six {
-    display:flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 10px;
-}
-
-#seven {
-    display:flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 10px;
-}
-
-#eight {
-    display:flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 10px;
-}
-
-#nine {
-    display:flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 10px;
-}
